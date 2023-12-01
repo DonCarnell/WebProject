@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+					<li class="nav-item"><a href="index.html">Rust</a></li>
+                    <li class="nav-item"><a href="forums.html">Forums</a></li>
+                    <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li>
+					<li class="nav-item"><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">Welcome To Rust</div>
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+		<!-- Gallery Header -->
+		<div class="gallery-header">
+			<h2>Community Gallery</h2>
+		</div>
+
+
+    <!-- Gallery Section -->
+    <div class="container">
+        <div class="gallery">
+            <div class="gallery-item">
+				<a href="https://rust.facepunch.com/news/community-update-258">
+					<img src="https://files.facepunch.com/Errn/1b2011b1/Paratrooper_nuts_small.jpg" alt="Image 1">
+					 <div class="gallery-details">
+						<div class="date">MONDAY, NOVEMBER 27, 2023</div>
+						<h3 class="title">Community Update 258</h3>
+						<p class="description">Steam Awards, Multiple Cinematics, Global Warfare, Youtube Achievements, Support a Streamer Event, and more!</p>
+					</div>
+				</a>
+            </div>
+            <div class="gallery-item">
+				<a href="https://rust.facepunch.com/news/steamawards2023">
+                <img src="https://i.imgur.com/nClIfJM.png" alt="Image 2">
+                <div class="gallery-details">
+						<div class="date">TUESDAY, NOVEMBER 21, 2023</div>
+						<h3 class="title">2023 Steam AWARDS</h3>
+						<p class="description">This year's Steam Awards sees Rust enter for the 'Labour of Love' category. After 10 years of the game, it's updates, and content, we are officially putting our hat in the ring!</p>
+					</div>
+				</a>
+            </div>
+			<div class="gallery-item">
+				<a href="https://rust.facepunch.com/news/coupling-the-rails">
+					<img src="https://files.facepunch.com/paddy/20231102/railroadlink_01.jpg" alt="Image 3">
+					<div class="gallery-details">
+						<div class="date">THURSDAY, NOVEMBER 2, 2023</div>
+						<h3 class="title">Coupling The Rails</h3>
+						<p class="description">The surface and underground rail networks are now linked, train signals have been added. Base decor pack released and a bunch of QOL and fixes</p>
+					</div>
+				</a>
+            </div>
+			<div class="gallery-item">
+				<a href="https://rust.facepunch.com/news/community-update-257">
+					<img src="https://files.facepunch.com/Errn/1b2411b1/F0NM9z9XoAIZNTm.jpg" alt="Image 4">
+					<div class="gallery-details">
+						<div class="date">THURSDAY, OCTOBER 26, 2023</div>
+						<h3 class="title">Community Update 257</h3>
+						<p class="description">Halloween Trailers, Breast Cancer Charity, Project Lazarus Event, & more!</p>
+					</div>
+				</a>
+            </div>
+			<div class="gallery-item">
+				<a href="https://rust.facepunch.com/news/happy-halloween-23">
+					<img src="https://files.facepunch.com/paddy/20231021/halloween_dracula_01.jpg" alt="Image 5">
+					<div class="gallery-details">
+						<div class="date">MONDAY, OCTOBER 23, 2023</div>
+						<h3 class="title">Happy Halloween</h3>
+						<p class="description">A darkness is falling upon Rust, monsters are awakening, portals are opening, and skulls are breaking. Enter if you dare.</p>
+					</div>
+				</a>
+            </div>
+			<div class="gallery-item">
+				<a href="https://rust.facepunch.com/news/solid-foundations">
+					<img src="https://files.facepunch.com/Alistair/101/10/2023/9l99/brutalist_buildingskin_001.jpg" alt="Image 6">
+					<div class="gallery-details">
+						<div class="date">THURSDAY, OCTOBER 5, 2023</div>
+						<h3 class="title">Solid foundations</h3>
+						<p class="description">QoL Updates, Brutalist Building Skin, Weather Events, Turret System Adjustments, SMG buff and more! </p>
+					</div>
+				</a>
+            </div>
+            <!-- Add more gallery items as needed -->
+
+            <!-- ... (similar structure for other gallery items) ... -->
+        </div>
+    </div>
+
+	<!-- Forum Info Section -->
+	<div class="forum-info">
+		<!-- ... (your existing content) ... -->
+
+		<!-- NEWS Section -->
+		<div class="news-section">
+			<ul>
+				<li><a href="https://rust.facepunch.com/news/">NEWS</a></li>
+				<li><a href="https://rust.facepunch.com/buy">BUY RUST</a></li>
+				<li><a href="https://rust.facepunch.com/companion">COMPANION</a></li>
+				<li><a href="https://twitch.facepunch.com/">TWITCH DROPS</a></li>
+				<li><a href="https://facepunch.com/merch">MERCH</a></li>
+				<li><a href="https://rust.double11.com/">CONSOLE</a></li>
+				<li><a href="https://commits.facepunch.com/">COMMITS</a></li>
+				<li><a href="https://rust.facepunch.com/changes">CHANGELOG</a></li>
+				<li><a href="https://rust.facepunch.com/support">SUPPORT</a></li>
+				<li><a href="https://facepunch.com/legal">LEGAL</a></li>
+			</ul>
+		</div>
+	</div>
+
+    <!-- Footer Section (you can keep the same footer as your Forum page) -->
+    <footer>
+        <span>&copy; Caleb Neller | All Rights Reserved</span>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
